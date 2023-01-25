@@ -8,6 +8,11 @@ const app = require('../app');
 const debug = require('debug')('miapi-express:server');
 const http = require('http');
 
+//bd configuracion
+
+require('../config/db')
+
+
 /**
  * Get port from environment and store in Express.
  */
